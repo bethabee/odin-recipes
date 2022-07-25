@@ -1,0 +1,73 @@
+.header {
+   
+    
+   background-image: url(https://www.partyrama.co.uk/wp-content/uploads/2018/10/kawaii-kittens-balloons-and-hearts-design-personalised-banner-product-image.jpg);
+    height: 100px;
+    width: 100%;
+   
+    text-indent: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.firsth {
+    text-align: center;
+
+}
+
+* {
+   
+    box-sizing: border-box;
+    font-family: sans-serif;
+    
+}
+   
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/03/10/31/98/240_F_310319881_1eOoWumBqY7CfWP2TxycQN5IpcSzro5j.jpg);
+}
+
+.footer {
+    background-image: url(https://www.partyrama.co.uk/wp-content/uploads/2018/10/kawaii-kittens-balloons-and-hearts-design-personalised-banner-product-image.jpg);
+    position: absolute;
+    width: 100%;
+    height:100px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.home {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(181, 141, 221);
+    color: rgb(181, 141, 221)
+  
+    
+
+}
+
+.twotart {
+    text-align: center;
+    
+}
+
+.link {
+    text-align: center;
+}
